@@ -42,7 +42,7 @@ class SaleItem:
 		return self._cost
 		
 	def getWeight(self):
-		return self._cost
+		return self._weight
 		
 	def getTitle(self):
 		return self._title
@@ -51,7 +51,7 @@ class SaleItem:
 		return self._freeShipping
 		
 	def getDetailsAsString(self):
-		return self._title + ' $' +str(self._cost)
+		return self._title + ' $' + self._cost
 		
 	def getID(self):
 		return self._itemID
